@@ -340,15 +340,42 @@ input[type=submit]:hover {
         margin-bottom: 4rem;
     }
 
+    .contact-content-wrapper .hrMainContent {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .contact-content-wrapper h2 {
+        padding: 1rem 1rem 1rem 0rem;
+        margin-left: 5%;
+    }
+
+    label {
+        margin-left: 5%;
+    }
+
     input[type=text], input[type=email] {
-        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-        color: var(--regular-font-color);
-        padding: 4px;
-        margin-left: 20px;
-        margin-bottom: 20px;
+        padding: 0.2rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2rem;
+        margin-top: 0.3rem;
+        width: 90%;
+    }
+
+    textarea {
+        margin-left: 5%;
         margin-top: 5px;
-        width: 920px;
-        border: 1px solid var(--content-border);
+        width: 90%;
+        height: 25vh;
+    }
+
+    input[type=submit] {
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        width: 5rem;
+        border: none;
+        margin: 1rem 1rem 2rem 5%;
     }
 
 }
