@@ -261,10 +261,14 @@ input[type=submit]:hover {
     transition-timing-function: ease-in-out;
 }
 
+
+
 /* ---------Media Queries--------- */
 
 
 @media only screen and (max-width: 980px) {
+
+/*----Styling which applies to all pages----*/
 
     .nav-wrapper {
         width: 100%;
@@ -275,7 +279,7 @@ input[type=submit]:hover {
         height: 8vh;
      }
 
-     h1 {
+    h1 {
         font-size: 2rem;
         height: 8vh;
         padding: 0.5rem 1rem 0.5rem 1rem;
@@ -302,7 +306,23 @@ input[type=submit]:hover {
         float: right;
     }
 
+    .main-content-wrapper {
+        width: 80vw;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: auto;
+        margin-bottom: 4rem;
+    }
+
+    p {
+        line-height: 1.75;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
 }
+
+
 
 @media only screen and (max-width: 768px) {
 
