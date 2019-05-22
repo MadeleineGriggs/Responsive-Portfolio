@@ -52,6 +52,7 @@ nav a:hover {
     text-decoration: underline var(--teal-color);
     color: var(--teal-color);
 }
+
 .nav-wrapper hr {
     width: 1px;
     height: 20px;
@@ -265,9 +266,42 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 980px) {
 
-    h2{
-        color: black;
+    .nav-wrapper {
+        width: 100%;
+        margin: auto;
     }
+
+    nav {
+        height: 8vh;
+     }
+
+     h1 {
+        font-size: 2rem;
+        height: 8vh;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        margin: auto;
+        display: inline;
+        clear: both;
+        margin-left: 2rem;
+    }
+
+    nav a {
+        float: right;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 0px;
+        text-decoration: none;
+        line-height: 8vh;
+    }
+
+    .nav-wrapper hr {
+        width: 1px;
+        height: 2vh;
+        margin-top: 3vh;
+        display: inline;
+        float: right;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
