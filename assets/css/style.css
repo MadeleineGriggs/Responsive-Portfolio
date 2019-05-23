@@ -373,7 +373,7 @@ input[type=submit]:hover {
 
     input[type=submit] {
         padding: 0.5rem 1rem 0.5rem 1rem;
-        width: 5rem;
+        width: 6rem;
         border: none;
         margin: 1rem 1rem 2rem 5%;
     }
@@ -388,6 +388,9 @@ input[type=submit]:hover {
         color: red;
     }
 
+    .main-content-wrapper {
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 640px) {
