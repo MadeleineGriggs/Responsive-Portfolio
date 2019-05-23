@@ -306,8 +306,6 @@ input[type=submit]:hover {
         float: right;
     }
 
-    
-
     p {
         line-height: 1.75;
         margin-left: 1rem;
@@ -416,4 +414,46 @@ input[type=submit]:hover {
     h2{
         color: blue;
     }
+
+    h1 {
+        font-size: 1.75rem;
+        height: 6vh;
+        width: 100%;
+        text-align: center;
+        padding: 0.4rem 1rem 0.5rem 1rem;
+        margin: 0em;
+        display: block;
+        clear: both;
+    }
+
+    nav {
+        height: 12vh;
+     }
+
+     .nav-wrapper {
+        width: 100%;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+
+     nav a {
+        float: none;
+        margin: auto;
+        padding: 0px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: inline-block;
+        text-decoration: none;
+        line-height: 6vh;
+    }
+
+    .nav-wrapper hr {
+        width: 1px;
+        height: 2vh;
+        margin: auto;
+        display: inline-block;
+        float: none;
+    }
+
 }
