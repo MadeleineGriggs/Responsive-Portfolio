@@ -236,7 +236,7 @@ input[type=submit]:hover {
 
 .desaturate:hover, .desaturate:focus-within {
     filter: grayscale(0%);
-    transition: 1s;
+    transition: 0.5s;
     transition-timing-function: ease;
 }
 
@@ -255,7 +255,7 @@ input[type=submit]:hover {
 
 .image-container a:hover {
     background-color: var(--dark-teal);
-    transition: 1s;
+    transition: 0.5s;
     transition-timing-function: ease-in-out;
 }
 
@@ -373,9 +373,6 @@ input[type=submit]:hover {
 @media only screen and (max-width: 768px) {
     /*----Styling which applies to all pages----*/
 
-    h2{
-        color: red;
-    }
 
     /*----Styling which applies to only the about me page----*/
 
@@ -400,7 +397,6 @@ input[type=submit]:hover {
     /*----Styling which applies to all pages----*/
 
     h2{
-        color: blue;
         font-size: 1.75rem;
     }
 
@@ -421,8 +417,8 @@ input[type=submit]:hover {
      }
 
      .nav-wrapper {
-        width: 100%;
-        text-align: center;
+            width: 100%;
+            text-align: center;
     }
 
     .float-wrapper {
@@ -440,11 +436,52 @@ input[type=submit]:hover {
         line-height: 6vh;
     }
 
-    .nav-inner-border {
-        margin: 0 auto;
-        margin-top: 2vh;
+    /*----Styling which applies to only the about me page----*/
+
+    .profile-img {
+        display: block;
+        margin: 1.5rem auto;
+        float: none;
     }
 
+    /*----Styling which applies to only the portfolio page----*/
 
+    .images-wrapper {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .image-container {
+        float: none;
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 2em;
+    }
+
+    
+    .images-wrapper:last-child {
+        margin-bottom: 2em;
+    }
+
+    .image-container img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .image-container a {
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        text-align: center;
+        color: var(--main-header-bg);
+        background-color: var(--teal-color);
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-decoration: none;
+    }
+    
 
 }
