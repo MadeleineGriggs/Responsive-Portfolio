@@ -31,13 +31,13 @@ the second part of this assignment, a responsive portfolio that uses Bootstrap f
 
 #### About Page
 
-![Image of about page](assets/images/responsive_about_screenshot.PNG)
+![Image of about page](assets/images/Responsive_About_Screenshot.PNG)
 
 #### Portfolio Page
 
-![Image of portfolio page](assets/images/responsive_portfolio_screenshot.PNG)
+![Image of portfolio page](assets/images/Responsive_Portfolio_Screenshot.PNG)
 
 #### Contact Page
 
-![Image of contact page](assets/images/responsive_contact_screenshot.PNG)
+![Image of contact page](assets/images/Responsive_Contact_Screenshot.PNG)
 
