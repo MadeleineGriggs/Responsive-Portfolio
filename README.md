@@ -1,5 +1,5 @@
 # Responsive-Portfolio
-A simple web porfolio site, using vanilla CSS media queries for styling and responsive behaviour.
+A simple web porfolio site, using CSS media queries for styling and responsive behaviour.
 
 ## Author
 Madeleine Griggs, original design by the UofT coding bootcamp.
