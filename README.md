@@ -6,11 +6,12 @@ Madeleine Griggs, original design by the UofT coding bootcamp.
 
 ## About this Project
 this is a simple website designed to showcase a portfolio of work for web development. It was made as part of a project for the UofT coding bootcamp. The purpose of this project was to gain an understanding of how to use media queries to make a page responsive, and general knowledge of responsive websites. The design is based on an earlier project, which you can find here:
-[Basic Portfolio](https://typicu.github.io/Basic-Portfolio/)
+[Basic Portfolio](https://madeleinegriggs.github.io/Basic-Portfolio/)
 
 the second part of this assignment, a responsive portfolio that uses Bootstrap for the responsive behaviour, can be found here:
-[Bootstrap Portfolio](https://typicu.github.io/Bootstrap-Portfolio/)
+[Bootstrap Portfolio](https://madeleinegriggs.github.io/Bootstrap-Portfolio/)
 
+You can see this project here: [Responsive Portfolio](https://madeleinegriggs.github.io/Responsive-Portfolio/)
 
 ## Information about the Theme
 
